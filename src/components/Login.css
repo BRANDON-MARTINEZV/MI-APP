@@ -1,0 +1,72 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.login-box h2 {
+  background: purple;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  margin: -30px -30px 10px -30px;
+}
+
+.logo {
+  width: 80px;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.eye-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 148px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+a {
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
